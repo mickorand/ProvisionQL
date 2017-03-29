@@ -177,7 +177,6 @@
 				55DB7279186E193500CAFEE7 /* Headers */,
 				55DB727A186E193500CAFEE7 /* Resources */,
 				55DB727B186E193500CAFEE7 /* Rez */,
-				554C6385186E258000D9EEDE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -236,22 +235,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXRezBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		554C6385186E258000D9EEDE /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "sh ProvisionQL/Scripts/install.sh";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		55DB7277186E193500CAFEE7 /* Sources */ = {
